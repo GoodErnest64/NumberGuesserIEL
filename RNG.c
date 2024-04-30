@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <ctype.h>
 
 int num;
 int guess;
@@ -27,11 +28,6 @@ int main()
         }
         else if(guess == num){
             printf("You Won ! The Number Was %d And You Guessed It In %d Guesses !\n", num, guesses);
-            break;
-        }
-        else
-        {
-            printf("YO WTF");
             break;
         }
         guesses += 1;
