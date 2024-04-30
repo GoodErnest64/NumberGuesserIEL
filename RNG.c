@@ -5,11 +5,13 @@
 int num;
 int guess;
 int guesses = 0;
+const int MIN = 0;
+const int MAX = 100;
 
 int main()
 {
     srand(time(0));
-    num = randrange(0, 100);
+    num = (rand() % (MAX - MIN + 1)) + MIN; ;
     while (1){
         printf("\nEnter Your Guess : ");
         scanf("%d", &guess);
@@ -27,9 +29,4 @@ int main()
     }
     _getch();
     return 0;
-}
-
-int randrange(int low, int high){
-    int num = (rand() % (high - low + 1)) + low; 
-    return num;
 }
