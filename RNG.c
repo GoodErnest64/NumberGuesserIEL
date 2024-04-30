@@ -37,6 +37,7 @@ int main()
         }
         guesses += 1;
     }
+    printf("\nPress Any Key To Continue....");
     _getch();
     return 0;
 }
