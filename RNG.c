@@ -1,6 +1,7 @@
-#include <stdio.h> 
-#include <stdlib.h> 
-#include <time.h> 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <ctype.h>
 
 int num;
 int guess;
@@ -14,7 +15,11 @@ int main()
     num = (rand() % (MAX - MIN + 1)) + MIN; ;
     while (1){
         printf("\nEnter Your Guess : ");
-        scanf("%d", &guess);
+        if(scanf("%d", &guess) != 1){
+            printf("Invalid Input !!!");
+            exit(1);
+        }
+
         if(guess > num){
             printf("Your Guess Is Too High !");
         }
@@ -23,6 +28,11 @@ int main()
         }
         else if(guess == num){
             printf("You Won ! The Number Was %d And You Guessed It In %d Guesses !", num, guesses);
+            break;
+        }
+        else
+        {
+            printf("YO WTF");
             break;
         }
         guesses += 1;
