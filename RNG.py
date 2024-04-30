@@ -14,6 +14,11 @@ while True:
     except ValueError:
         print("Invalid Input !!!")
         sys.exit(1)
+    
+    if guess > MAX or guess < MIN:
+        print("Input Out Of Range !!!")
+        sys.exit(1)
+
     if guess > num:
         print("Your Guess Is Too High !")
     elif guess < num:
