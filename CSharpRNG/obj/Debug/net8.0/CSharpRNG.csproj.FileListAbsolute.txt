@@ -1,0 +1,14 @@
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\bin\Debug\net8.0\CSharpRNG.exe
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\bin\Debug\net8.0\CSharpRNG.deps.json
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\bin\Debug\net8.0\CSharpRNG.runtimeconfig.json
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\bin\Debug\net8.0\CSharpRNG.dll
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\bin\Debug\net8.0\CSharpRNG.pdb
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\obj\Debug\net8.0\CSharpRNG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\obj\Debug\net8.0\CSharpRNG.AssemblyInfoInputs.cache
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\obj\Debug\net8.0\CSharpRNG.AssemblyInfo.cs
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\obj\Debug\net8.0\CSharpRNG.csproj.CoreCompileInputs.cache
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\obj\Debug\net8.0\CSharpRNG.dll
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\obj\Debug\net8.0\refint\CSharpRNG.dll
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\obj\Debug\net8.0\CSharpRNG.pdb
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\obj\Debug\net8.0\CSharpRNG.genruntimeconfig.cache
+C:\Users\RayanService\Documents\Projects\Ponish1\CSharpRNG\obj\Debug\net8.0\ref\CSharpRNG.dll
