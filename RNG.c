@@ -20,6 +20,11 @@ int main()
             exit(1);
         }
 
+        if(guess > MAX || guess < MIN){
+            printf("Input Out Of Range !!!");
+            exit(1);
+        }
+
         if(guess > num){
             printf("Your Guess Is Too High !\n");
         }
@@ -30,7 +35,7 @@ int main()
             printf("You Won ! The Number Was %d And You Guessed It In %d Guesses !\n", num, guesses);
             break;
         }
-        guesses += 1;
+        guesses++;
     }
     //printf("\nPress Any Key To Continue . . .");
     //_getch();
