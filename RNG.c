@@ -12,7 +12,7 @@ const int MAX = 100;
 int main()
 {
     srand(time(0));
-    num = (rand() % (MAX - MIN + 1)) + MIN; ;
+    num = (rand() % (MAX - MIN + 1)) + MIN;
     while (1){
         printf("Enter Your Guess : ");
         if(scanf("%d", &guess) != 1){
